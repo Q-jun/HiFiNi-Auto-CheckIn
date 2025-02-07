@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   schedule:
     cron: "55 15 * * *"  
-# UTC 15:55 = 北京时间 23:55
+
 jobs:
   build:
     env:
